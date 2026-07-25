@@ -1,0 +1,55 @@
+{
+  "client_name": "Jordan Ellis",
+  "tax_year": 2024,
+  "items": [
+    {
+      "id": "w2-1",
+      "doc_type": "W-2",
+      "label": "W-2 — Acme Robotics Inc.",
+      "issuer_hint": "Acme Robotics",
+      "required": true
+    },
+    {
+      "id": "1099int-1",
+      "doc_type": "1099-INT",
+      "label": "1099-INT — Chase Bank",
+      "issuer_hint": "Chase",
+      "required": true
+    },
+    {
+      "id": "1099div-1",
+      "doc_type": "1099-DIV",
+      "label": "1099-DIV — Fidelity Investments",
+      "issuer_hint": "Fidelity",
+      "required": true
+    },
+    {
+      "id": "1099nec-1",
+      "doc_type": "1099-NEC",
+      "label": "1099-NEC — Globex Consulting LLC",
+      "issuer_hint": "Globex",
+      "required": true
+    },
+    {
+      "id": "k1-1",
+      "doc_type": "K-1",
+      "label": "K-1 — Riverside Partners LP",
+      "issuer_hint": "Riverside Partners",
+      "required": true
+    },
+    {
+      "id": "1098-1",
+      "doc_type": "1098",
+      "label": "Mortgage Interest Statement — Wells Fargo",
+      "issuer_hint": "Wells Fargo",
+      "required": true
+    },
+    {
+      "id": "prior-return-1",
+      "doc_type": "Prior-Year Return",
+      "label": "2023 Prior-Year Tax Return",
+      "required": false,
+      "notes": "Optional if already on file from last year's engagement."
+    }
+  ]
+}
