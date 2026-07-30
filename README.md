@@ -1,3 +1,7 @@
+TL;DR: A small FastAPI + React demo that checks client tax documents against a request checklist and produces a readiness report and one-click follow-up draft.
+
+---
+
 # Return Readiness Checker
 
 Drop in the documents a client sent, compare them against what the firm requested, and get an
@@ -58,3 +62,7 @@ fixtures use a fake client, "Jordan Ellis," matching `data/checklist.json`.
 Deliberately out of scope for this build: real tax-software/EHR integrations, multi-client
 management, auth/accounts, and the heavier prior-year-delta review engine. One client, one
 readiness check.
+
+---
+
+License: MIT (LICENSE file added)
